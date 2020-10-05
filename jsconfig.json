@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "https://trendseverywhere.com/blog",
     "paths": {
       "@/components/*": ["components/*"],
       "@/lib/*": ["lib/*"],

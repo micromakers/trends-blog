@@ -28,6 +28,21 @@ export default function Post({ post, morePosts, preview }) {
           <>
             <article>
               <Head>
+              <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-31995855-2"
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-31995855-2');
+        `,
+        }}
+      ></script>
+              
                 <title>
                   {post.title} | Trends Everywhere Blog
                 </title>

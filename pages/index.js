@@ -14,7 +14,7 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
+          <title>Trends Everywhere Blog | The easiest way to track and analyse Internet trends</title>
         </Head>
         <Container>
           <Intro />

@@ -45,6 +45,10 @@ export default function Post({ post, morePosts, preview }) {
               <PostBody content={post.content} />
             </article>
             <SectionSeparator />
+            <div style={{textAlign: 'center'}}>
+              <script async data-uid="4c706cdcf9" src="https://sunny-architect-9303.ck.page/4c706cdcf9/index.js"></script>
+            </div>
+
             {morePosts.length > 0 && <MoreStories posts={morePosts} />}
           </>
         )}

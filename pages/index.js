@@ -14,6 +14,7 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
+          <link rel="shortcut icon" type="image/png" href="https://trendseverywhere.com/favicon.png" />
           <title>Trends Everywhere Blog | The easiest way to track and analyse Internet trends</title>
           <script
         async
